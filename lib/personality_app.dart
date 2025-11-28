@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:personality_app/models/questions.dart';
+import 'package:personality_app/data/questions.dart';
 import 'package:personality_app/results.dart';
 
 import 'home.dart';

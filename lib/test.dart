@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:personality_app/models/question.dart';
 
-import 'models/questions.dart';
+import 'data/questions.dart';
 
 class Test extends StatefulWidget {
   const Test(this.selectAnswer, {super.key});
