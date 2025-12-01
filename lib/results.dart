@@ -14,9 +14,9 @@ class Results extends StatelessWidget {
     final topPersonality = getTopPersonality();
     final personality = personalityDetails[topPersonality]!;
 
-    return Scaffold(
-      backgroundColor: Colors.blueGrey[900],
-      body: Center(
+    return Container(
+      color: Colors.blueGrey[900],
+      child: Center(
         child: Padding(
           padding: const EdgeInsets.all(20),
           child: Column(
